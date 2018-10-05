@@ -28,24 +28,17 @@ Each of these kinds of objects have code in common which is required to particip
 ~~~javascript
 // declaration of the loop in a browser context
 class Entity() {
-	constructor() {
+	constructor(x, y, z) {
 		// ...
-		self.position = new Position(0, 0, 0)
+		self.position = new Position(self.x, self.y, self.z)
 		// etc
-	}
-
-	update() {
-		// ...
-	}
-
-	draw() {
-		// ...
 	}
 }
 
-class Zombie() extends Entity {}
-class Critter() extends Entity {}
 class Avatar() extends Entity {}
+class Enemy() extends Entity {}
+class Nazi() extends Enemy {}
+class Zombie() extends Enemy {}
 
 ~~~
 

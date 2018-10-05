@@ -6,7 +6,6 @@ When we have a large number of self-similar software objects it can be convenien
 
 A pattern has emerged where each object has an update method.
 
-
 ## Related To
 
 - entity
@@ -18,7 +17,6 @@ A pattern has emerged where each object has an update method.
 - logic method
 - execute method
 
-
 ### Makes Use Of
 
 ## Discussion
@@ -29,13 +27,21 @@ This method can be created through inheritance, composition or as a normal metho
 ## Implementation
 
 ~~~javascript
-// declaration of the loop in a browser context
-class Entity() {
-
+class GameObjectOrOtherActiveClass() {
 	update() {
 		// update and/or realise my current state externally
 	}
 }
+
+CalledAtRegularIntervals() {
+
+	// inside the game loop or some manager?
+    for (var i = 0; i < numEntities; i++)
+    {
+      entities[i]->update()
+    }
+}
+
 
 ~~~
 
