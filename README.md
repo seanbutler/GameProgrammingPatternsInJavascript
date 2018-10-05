@@ -27,17 +27,22 @@ We can in reality organise the patterns in any way we might wish. In practice so
 | Optimisation | Reducing computation, speeding up execution, reducing memory use |
 | Other | No doubt there are other tags, what can we think of that is widely applicable? |
 
-## Index
+## Patterns
 
 |Name|Tags (Categories)| Status |
 |---|---|---|
 | [update method](./updatemethod.md) |flow, decoupling| done |
 | [entity](./entity.md) | structural | done |
 | [game loop](./gameloop.md) |flow| done |
-| [object pool](./objectpool.md) |optimisation| todo |
+| [object pool](./objectpool.md) |optimisation| done |
+
+## Additional Patterns
+
+|Name|Tags (Categories)| Status |
+|---|---|---|
 | [scene graph](./scenegraph.md) |structural, optimisation| todo |
-| [state](./state.md) |decoupling| todo |
 | [finite state machine](./finitestatemachine.md) | flow, decoupling |  todo |
+| [state](./state.md) |decoupling| todo |
 | [positionroationscale](./positionroationscale.md) | |  todo  |
 | [component](./component.md) | |  todo |
 | [entity component system](./entitycomponentsystem.md) | |  todo |
