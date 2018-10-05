@@ -36,7 +36,7 @@ We can in reality organise the patterns in any way we might wish. In practice so
 | [game loop](./gameloop.md) |flow| done |
 | [object pool](./objectpool.md) |optimisation| done |
 
-## Additional Patterns
+## More Patterns
 
 |Name|Tags (Categories)| Status |
 |---|---|---|
@@ -46,3 +46,4 @@ We can in reality organise the patterns in any way we might wish. In practice so
 | [positionroationscale](./positionroationscale.md) | |  todo  |
 | [component](./component.md) | |  todo |
 | [entity component system](./entitycomponentsystem.md) | |  todo |
+| [spatial partition](./spatialpartition.md) | |  todo |
