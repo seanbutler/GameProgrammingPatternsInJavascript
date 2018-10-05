@@ -35,6 +35,7 @@ We can in reality organise the patterns in any way we might wish. In practice so
 | [entity](./entity.md) | structural | done |
 | [game loop](./gameloop.md) |flow| done |
 | [object pool](./objectpool.md) |optimisation| done |
+| [singleton](./singleton.md) |structural| done |
 
 ## More Patterns
 
