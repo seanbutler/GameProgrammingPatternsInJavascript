@@ -1,4 +1,4 @@
-# Entity
+# Singleton
 
 ## Rationale
 
