@@ -36,10 +36,10 @@ class GameObjectOrOtherActiveClass() {
 CalledAtRegularIntervals() {
 
 	// inside the game loop or some manager?
-    for (var i = 0; i < numEntities; i++)
-    {
-      entities[i]->update()
-    }
+	for (var i = 0; i < numEntities; i++)
+	{
+		entities[i]->update()
+	}
 }
 
 
