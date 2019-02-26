@@ -1,5 +1,4 @@
-# Game Programming Patterns In Javascript
-## Overview
+# Overview
 
 There is a list of game programming patterns in common use throughout the industry. Many of (all) these patterns can be seen elsewhere on the web including:
 
@@ -15,7 +14,7 @@ This repository is similar to those other sites, except that the patterns are ex
 
 _(By Source, Fair use, https://en.wikipedia.org/w/index.php?curid=27713585_) -->
 
-## Categories
+# Categories
 
 We can in reality organise the patterns in any way we might wish. In practice software patterns are an idiomatic use of a language that have evolved organically. As a result rarely fit into one single category. Instead perhaps we should think of these as 'tags' so more than one can apply to a given pattern.
 
@@ -27,7 +26,7 @@ We can in reality organise the patterns in any way we might wish. In practice so
 | Optimisation | Reducing computation, speeding up execution, reducing memory use |
 | Other | No doubt there are other tags, what can we think of that is widely applicable? |
 
-## Patterns
+# Patterns
 
 |Name|Tags (Categories)| Status |
 |---|---|---|
@@ -37,7 +36,7 @@ We can in reality organise the patterns in any way we might wish. In practice so
 | [object pool](./objectpool.md) |optimisation| done |
 | [singleton](./singleton.md) |structural| done |
 
-## More Patterns
+# More Patterns (Pending)
 
 |Name|Tags (Categories)| Status |
 |---|---|---|
